@@ -2,7 +2,29 @@
   background-color: rgb(247, 217, 178);
 }
 
-.nav-logo{
+.logo-image-style{
   width: 70px;
   height: 60px;
+}
+
+.logo-text-style{
+  margin: -21px 0px 0px 69px;
+}
+
+marquee{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+main{
+  min-height: 82vh;
+}
+
+footer{
+  background-color: rgb(247, 217, 178);
+  padding: 10px;
+}
+
+*{
+  font-family: 'Times New Roman', Times, serif;
 }
