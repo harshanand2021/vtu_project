@@ -10,7 +10,7 @@ function Header() {
 
                     <LinkContainer to='/'>
                         <Navbar.Brand href="/">
-                            <Image src="./images/logo.png" className="logo-image-style" alt="vtu-logo" roundedCircle />
+                            <Image src="../images/logo.png" className="logo-image-style" alt="vtu-logo" roundedCircle />
                             <h6 className="logo-text-style">Visvesvaraya Technological University</h6>
                         </Navbar.Brand>
                     </LinkContainer>
@@ -37,7 +37,9 @@ function Header() {
                             <NavDropdown title="Examination" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#">Examination Guidelines</NavDropdown.Item>
                                 <NavDropdown.Item href="#">Examination Application</NavDropdown.Item>
-                                <NavDropdown.Item href="#">Results</NavDropdown.Item>
+                                <LinkContainer to='/result/loginpage'>
+                                    <NavDropdown.Item href="/result/loginpage">Results</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
 
                             <NavDropdown title="VTU Departments" id="basic-nav-dropdown">
