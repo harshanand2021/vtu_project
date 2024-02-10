@@ -33,3 +33,7 @@ footer{
 *{
   font-family: 'Times New Roman', Times, serif;
 }
+
+tr,th{
+  text-align: center;
+}
