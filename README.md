@@ -1,4 +1,4 @@
-# VTU Project Documentation
+# VTU (Visvesvaraya Technological University) Project
 
 ## Project Overview
 
