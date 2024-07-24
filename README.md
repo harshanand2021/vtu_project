@@ -32,6 +32,7 @@ This project is developed as part of the curriculum at Visvesvaraya Technologica
 
 ## Running the Application
 
-    To start the application, run:
+- To start the application, run:
 
+    ```bash
     npm start
