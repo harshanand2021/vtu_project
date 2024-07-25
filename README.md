@@ -58,9 +58,8 @@ This project is developed as part of the curriculum at Visvesvaraya Technologica
 
 ## Running the Application
 
-- To start the application, run:
+To start the application, run:
 
-    ```bash
     npm start
 
 ## API Integration
@@ -69,8 +68,18 @@ This project is developed as part of the curriculum at Visvesvaraya Technologica
     // data.json
     {
         "students": [
-            { "id": 1, "name": "John Doe", "course": "Computer Science" },
-            { "id": 2, "name": "Jane Doe", "course": "Electronics" }
+            { "id": 1,
+            "registrationID": "19BCE10022", 
+            "name": "Manish",
+            "Father Name": "Ramesh",
+            "course": "Computer Science"
+            },
+            { "id": 2,
+            "registrationID": "19BCE10023",
+             "name": "Ajay",
+             "Father Name": "Ravindra"
+             "course": "Electronics" 
+            }
         ]
     }
 ### Fetching data with react-axios
