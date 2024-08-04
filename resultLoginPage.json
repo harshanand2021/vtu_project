@@ -4,22 +4,22 @@
             "_id": 1,
             "registrationID": "19BCE10022",
             "studentName": "Jatin",
-            "FatherName": "Manoj K",
-            "CollegeName": "VIT Chennai"
+            "fatherName": "Manoj K",
+            "collegeName": "VIT Chennai"
         },
         {
             "_id": 2,
             "registrationID": "19BCE10023",
             "studentName": "Aniket",
-            "FatherName": "Ajay",
-            "CollegeName": "VIT Chennai"
+            "fatherName": "Ajay",
+            "collegeName": "VIT Chennai"
         },
         {
             "_id": 3,
             "registrationID": "19BCE10024",
             "studentName": "Ankita",
-            "FatherName": "Arun K",
-            "CollegeName": "VIT Chennai"
+            "fatherName": "Arun K",
+            "collegeName": "VIT Chennai"
         }
     ]
 }
