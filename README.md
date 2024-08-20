@@ -1,8 +1,8 @@
 # VTU (Visvesvaraya Technological University) Project
 
-![alt text](image.png)
-![alt text](image-3.png)
-![alt text](image-2.png)
+![alt text](./public/images/screenshots/ss1.png)
+![alt text](/public/images/screenshots/ss2.png)
+![alt text](/public/images/screenshots/ss3.png)
 
 ## Project Overview
 
