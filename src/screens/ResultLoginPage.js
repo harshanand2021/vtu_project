@@ -5,7 +5,7 @@ import axios from "axios";
 
 const ResultLoginPage = () => {
   const [registerInput, setRegisterInput] = useState("");
-  const [error, setError] = useState(false);
+  const [error, setError] = useState("");
 
   const navigate = useNavigate();
 
@@ -18,9 +18,9 @@ const ResultLoginPage = () => {
         console.log("res ", response.data);
         response.data.map((data) => {
           if (data.registrationID === registerInput) {
-            navigate(`/result/loginpage/${registerInput}`);
+            navigate(`/resultpage/${registerInput}`);
           } else {
-            setError(true);
+            setError("Invalid Registration ID");
           }
         });
       });

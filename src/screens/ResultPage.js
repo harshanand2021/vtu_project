@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 import TableData from "./TableData";
-import axios from 'axios';
+import axios from "axios";
 import { useParams } from "react-router-dom";
 
 const ResultPage = () => {
@@ -10,9 +10,9 @@ const ResultPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/studentDetails")
+      .get("http://localhost:2002/studentDetails")
       .then((response) => {
-        console.log(response.data)
+        console.log(response.data);
         response.data.map((data) => {
           if (data.registrationID === id) {
             setStudentDetails(data);
@@ -20,7 +20,7 @@ const ResultPage = () => {
         });
       })
       .catch((error) => console.error("error -> ", error));
-  }, []);
+  }, [studentDetails]);
 
   return (
     <>
@@ -62,7 +62,7 @@ const ResultPage = () => {
         </Col>
       </Row>
       <Row>
-        <TableData registrationID={studentDetails.registrationID} />
+        <TableData studentID={studentDetails.registrationID} />
       </Row>
     </>
   );
