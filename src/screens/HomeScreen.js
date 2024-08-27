@@ -7,7 +7,7 @@ function HomeScreen() {
         <>
             <div>
                 <marquee> VTU Results 2024 out - Check Exam Results Here
-                    <Link to='/result/loginpage'> Click Here...</Link> Best of Luck!!!
+                    <Link to='/resultloginpage'> Click Here...</Link> Best of Luck!!!
                 </marquee>
             </div>
 
