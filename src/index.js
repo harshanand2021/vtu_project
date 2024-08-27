@@ -7,16 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import HomeScreen from './screens/HomeScreen';
 import AboutUs from './screens/AboutUs';
-import LoginResultScreen from './screens/LoginResultScreen';
 import ResultPage from './screens/ResultPage';
+import ResultLoginPage from './screens/ResultLoginPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index = {HomeScreen} path = '/' element = {<HomeScreen />} />
       <Route path='/about' element = {<AboutUs />} />
-      <Route path='/result/loginpage' element = {<LoginResultScreen />} />
-      <Route path='/result/resultpage/' element = {<ResultPage />} />
+      <Route path='/resultloginpage' element = {<ResultLoginPage />} />
+      <Route path='/resultloginpage/resultpage/' element = {<ResultPage />} />
     </Route>
   )
 )
