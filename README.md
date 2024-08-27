@@ -1,5 +1,9 @@
 # VTU (Visvesvaraya Technological University) Project
 
+![alt text](./public/images/screenshots/ss1.png)
+![alt text](/public/images/screenshots/ss2.png)
+![alt text](/public/images/screenshots/ss3.png)
+
 ## Project Overview
 
 This project is developed as part of the curriculum at Visvesvaraya Technological University (VTU). The application is built using the React framework and various supporting libraries. It demonstrates the use of modern web development practices, including component-based architecture, state management, and API interactions.
