@@ -1,6 +1,5 @@
-import express from "express";
+const express = require("express");
+const app = express();
+const PORT = 3001;
 
-const express = require('express')
-const app = express()
-
-app.listen(3000)
+app.listen(PORT, console.log("Listening on PORT - ", PORT));

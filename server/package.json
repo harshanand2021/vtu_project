@@ -4,8 +4,13 @@
   "description": "vtu application server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "author": "Harsh Anand",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.20.0",
+    "nodemon": "^3.1.4"
+  }
 }
