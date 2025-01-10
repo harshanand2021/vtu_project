@@ -10,7 +10,7 @@ const ResultPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:2002/studentDetails")
+      .get("http://localhost:2000/studentDetails")
       .then((response) => {
         console.log(response.data);
         response.data.map((data) => {

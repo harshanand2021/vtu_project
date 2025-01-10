@@ -9,7 +9,7 @@ const TableData = ({ studentID }) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:2002/studentDetails")
+      .get("http://localhost:2000/studentDetails")
       .then((response) => {
         console.log("res", response.data);
         let temp = [];
